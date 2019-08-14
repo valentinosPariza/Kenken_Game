@@ -1,0 +1,58 @@
+
+
+------ NAME ------
+
+   ./kenkel - run operation in the program-game with name kenkel.
+       
+------ SYNOPSIS ------
+
+   ./kenkel -[OPERATION] -[INPUTFILE]
+
+
+
+------ EXPLANATION ------
+
+  -[OPERATION]
+  There are these operations for the fiel [OPERATION]available :
+
+   1) s
+      This operation needs the field [INPUTFILE] necessarily.
+      This operation runs the program \"kenkel\" in the play mode with
+      an interface in order to give a greater communication with user.
+      It needs a file which it must be, in a specific style and format 
+      which that file has all the information needed to run and simulate 
+      a game of kenkel puzzle.In the game there are showed many operations
+      for playing and sacing the game.
+   
+   -NOTE : if you don't know how to play the game see the site :
+    https://en.wikipedia.org/wiki/KenKen
+
+
+   2) i
+      This operation needs the field [INPUTFILE] necessarily.
+      This operation runs the program -game and solves it for you. If
+      the file you have given ,which represents a kenken unsolved puzzle
+      , isn't a good defined format with the appropriate information or
+      the kenken puzzle problem doesn't have a solution it will print 
+      an ERROR message which will be defining the error. 
+
+
+   3) m
+      Prints a manual which shows all the commands which can be maintained 
+      on through file kenkel.
+
+
+
+  -[INPUTFILE]
+
+      The file which will be used for simulating a kenken problem puzzle.
+      This file should have a specific format.
+
+
+------ EXAMPLES ------
+
+   % ./kenken -i inputFile.txt
+
+   % ./kenken -s inputFile.txt
+
+      

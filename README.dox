@@ -1,0 +1,28 @@
+/**
+
+@mainpage EPL232 Assingment 1 Kenkel 
+
+@author Valentinos Pariza
+
+This program implements the game KenKen.This game is similar to 
+sudoku but it has some more details that there are cages which are used
+to specify which set of linked cells(linked through a common side of cell)
+are going to be used in multiplication or addition in order calcualte a 
+specific result.Instead of this, as the sudoku you have to comlete all the
+cells in order no duplicate number will be appeared in a row or column.
+
+For more inforamtion haow the game is played see 
+@see https://en.wikipedia.org/wiki/KenKen.
+
+This program can create a game of prompting the user to solve the puzzle by 
+inserting values to cells and deleting them.Also this program has an operation
+of solving the puzzle by its own.
+
+This exercise was something new and  interesting.It was quite difficult 
+because we were a little bit unfamiliar with the programming language C.But 
+it was a great opportunity to understand some basic concepts of programming
+language C and also to make a strong introduction to the upcoming Chapter of 
+pointers.I'm looking forward to see what the next assingment would be about.
+
+
+*/
